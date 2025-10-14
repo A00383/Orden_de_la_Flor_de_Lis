@@ -10,6 +10,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 9fr;
+    width: 100vw;
+    height: 100vh;
 }
 
 #user_options {
