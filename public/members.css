@@ -35,4 +35,23 @@
     background-color: red;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr;
+}
+
+#general-description {
+    grid-row: 1;
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    background-color: darkred;
+}
+
+#members-body {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: darkblue;
 }
