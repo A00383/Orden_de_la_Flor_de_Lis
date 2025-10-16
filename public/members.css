@@ -1,0 +1,38 @@
+#body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+#sections {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+#user_options {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user_option {
+    height: 90%;
+}
+
+#main_body {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
